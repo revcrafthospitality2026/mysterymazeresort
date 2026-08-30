@@ -68,7 +68,7 @@ function getWeatherInfo(code: number) {
 
   return { label: "Wayanad Weather", type: "cloudy", icon: "🌤️" };
 }
-const ROOMS = [
+const ROOMS: Room[] = [
   { id: "paddy-cottage", name: "Paddy View Cottage", world: "Mystery Maze", price: 7500, size: 280, guests: 2, units: 6, tag: "Popular",
     desc: "A simple cottage room opening straight onto the working paddy fields, closest to the sunrise." },
   { id: "wooden-cottage", name: "Wooden Cottage", world: "Mystery Maze", price: 8000, size: 300, guests: 2, units: 8, tag: "Entry level",
